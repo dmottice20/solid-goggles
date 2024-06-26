@@ -1,0 +1,36 @@
+body {
+  background-color: #FAEBD7;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  min-height: 6rem; /* Prevents layout shift */
+}
+
+p {
+  font-size: 1.5rem;
+  min-height: 4.5rem; /* Prevents layout shift */
+}
+
+/* Hide cursor for heading after typing */
+.typewriter-wrapper.typing-done .Typewriter__cursor {
+  display: none;
+}
+
+/* Show cursor for paragraph */
+p .Typewriter__cursor {
+  display: inline-block;
+}

@@ -1,0 +1,25 @@
+.about-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .look-at-products-link {
+    margin-top: 50px;
+  }
+  
+  .look-products {
+    text-decoration: none;
+    color: var(--primary-dark-color); /* This should be defined in your CSS variables */
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .look-products .arrow-icon {
+    margin-left: 5px;
+  }
+  
+  .dark-mode .look-products {
+    color: var(--primary-light-color); /* Adjust this color for dark mode */
+  }
+  

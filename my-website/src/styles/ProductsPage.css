@@ -1,0 +1,24 @@
+.products-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.go-connect-link {
+    margin-top: 50px;
+}
+
+.go-connect {
+    text-decoration: none;
+    color: var(--primary-dark-color);
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.go-connect .arrow-icon {
+    margin-left: 5px;
+}
+
+.dark-mode .go-connect {
+    color: var(--primary-light-color);
+}

@@ -1,0 +1,46 @@
+:root {
+  --primary-light-color: #EAE7DC;
+  --primary-dark-color: #0C234C;
+}
+
+body.dark-mode {
+  background-color: var(--primary-dark-color);
+  color: var(--primary-light-color);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: var(--primary-light-color); /* Default background color */
+  color: var(--primary-dark-color);
+  position: relative;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('./assets/map3.png'); /* Corrected path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.1; /* Adjust opacity to blend with the image */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}

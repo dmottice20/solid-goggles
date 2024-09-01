@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Principles",
+      "author": "Ray Dalio",
+      "link": "https://www.principles.com",
+      "cover": "principles.jpg",
+      "notes": ""
+    },
+    {
+      "name": "The Everything Store",
+      "author": "Brad Stone",
+      "link": "https://brad-stone.com/the-everything-store/",
+      "cover": "The Everything Store.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Onward",
+      "author": "Howard Schultz",
+      "link": "https://www.amazon.com/Onward-Starbucks-Fought-without-Losing/dp/1609613821",
+      "cover": "Onward.jpg",
+      "notes": ""
+    },
+    {
+      "name": "The Ride of a Lifetime",
+      "author": "Robert Iger",
+      "link": "https://www.amazon.com/Ride-Lifetime-Lessons-Learned-Company/dp/0399592091",
+      "cover": "The Ride of a Lifetime.jpg",
+      "notes": ""
+    },
+    {
+      "name": "The Phoenix Project",
+      "author": "Gene Kim, Kevin Behr, George Spafford",
+      "link": "https://itrevolution.com/product/the-phoenix-project/",
+      "cover": "The Phoenix Project.jpg",
+      "notes": ""
+    },
+    {
+      "name": "How to Solve It",
+      "author": "George Pólya",
+      "link": "https://www.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069111966X",
+      "cover": "How to Solve It.jpg",
+      "notes": ""
+    },
+    {
+      "name": "The Changing World Order",
+      "author": "Ray Dalio",
+      "link": "https://www.amazon.com/Changing-World-Order-Nations-Succeed/dp/1982160276",
+      "cover": "The Changing World Order.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Outlive: The Art and Science of Longevity",
+      "author": "Peter Attia, Bill Gifford",
+      "link": "https://peterattiamd.com/outlive/",
+      "cover": "Outlive.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "link": "https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537",
+      "cover": "Steve Jobs.jpg",
+      "notes": ""
+    },
+    {
+      "name": "The Hundred-Year Marathon",
+      "author": "Michael Pillsbury",
+      "link": "https://thehundredyearmarathon.com",
+      "cover": "Hundred Year Marathon.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Chip War",
+      "author": "Chris Miller",
+      "link": "https://www.amazon.com/Chip-War-Worlds-Critical-Technology/dp/1982172002/ref=asc_df_1982172002/?gclid=Cj0KCQiAkKqsBhC3ARIsAEEjuJgTVJT0ZJ7DbZq65pQYOUcQsu34PFVpMPqK8zCtbbBmFWtJdH0UMt4aAiSvEALw_wcB&hvadid=564675582183&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9011679&hvnetw=g&hvpone=&hvpos=&hvptwo=&hvqmt=&hvrand=9805204728977309352&hvtargid=pla-1635417261246&linkCode=df0&mcid=aa16c28759b03b3193dc4f5cef89fc17&psc=1&tag=hyprod-20",
+      "cover": "chip war.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Situational Awareness",
+      "author": "Leopold Aschenbrenner",
+      "link": "https://situational-awareness.ai/",
+      "cover": "Situational Awareness.jpg",
+      "notes": ""
+    }
+  ]
+  

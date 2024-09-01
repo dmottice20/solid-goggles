@@ -1,0 +1,24 @@
+.home-container, .about-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.learn-more-link, .look-at-products-link {
+  margin-top: 50px;
+}
+
+.learn-more, .look-products {
+  text-decoration: none;
+  color: var(--primary-dark-color); /* This should be defined in your CSS variables */
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.learn-more .arrow-icon, .look-products .arrow-icon {
+  margin-left: 5px;
+}
+
+.dark-mode .learn-more, .dark-mode .look-products {
+  color: var(--primary-light-color); /* Adjust this color for dark mode */
+}

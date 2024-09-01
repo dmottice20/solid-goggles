@@ -1,0 +1,267 @@
+:root {
+  --primary-light-color: #EAE7DC;
+  --primary-dark-color: #0C234C;
+  --emphasis-color-1: #244855;
+  --emphasis-color-2: #874F42;
+  --emphasis-color-3: #90AEAD;
+  --emphasis-color-4: #3E362E;
+}
+
+.what-i-read-container {
+  padding: 20px;
+  max-width: 70%;
+  margin: 70px auto 0;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-dark-color); /* Use the primary dark color */
+}
+
+.books-section {
+  margin-top: 60px;
+}
+
+.section-title::before,
+.section-title::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--primary-dark-color);
+  margin: 0 15px;
+}
+
+.narration {
+  margin-bottom: 20px;
+}
+
+.intro {
+  display: inline;
+  margin: 0;
+  font-size: large;
+  color: var(--primary-dark-color); /* Use the primary dark color */
+}
+
+.emphasis {
+  display: inline;
+  margin: 0;
+  font-weight: bold;
+}
+
+.emphasis-1 {
+  color: var(--emphasis-color-1);
+  font-weight: bold;
+}
+
+.emphasis-2 {
+  color: var(--emphasis-color-2);
+  font-weight: bold;
+}
+
+.emphasis-3 {
+  color: var(--emphasis-color-3);
+  font-weight: bold;
+}
+
+.emphasis-4 {
+  color: var(--emphasis-color-4);
+  font-weight: bold;
+}
+
+.news-sources {
+  margin-top: 20px;
+}
+
+.dark-mode .emphasis-1 {
+  color: #BAB2B5;
+}
+
+.dark-mode .emphasis-2 {
+  color: var(--emphasis-color-2);
+}
+
+.dark-mode .emphasis-3 {
+  color: var(--emphasis-color-3);
+}
+
+.dark-mode .emphasis-4 {
+  color: #AC3B61;
+}
+
+.dark-mode .section-title::before,
+.dark-mode .section-title::after {
+  background-color: var(--primary-light-color);
+}
+
+.news-sources {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.news-source-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.news-source-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.news-source-item p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+
+.news-podcasts-section {
+  margin-top: 40px;
+}
+
+.news-source-item {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.news-source-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.news-source-item p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+
+.slick-slide {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.slick-center {
+  opacity: 1;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 10px !important;
+}
+
+.slick-next {
+  right: 10px !important;
+}
+
+@media (max-width: 1024px) {
+  .what-i-read-container {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .what-i-read-container {
+    max-width: 95%;
+    margin-top: 20px;
+  }
+
+  .intro {
+    font-size: medium;
+  }
+
+  .books-grid {
+    grid-template-columns: repeat(1, 1fr); /* Switch to 2 books per row */
+  }
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px; /* Set a fixed width for the book items */
+  height: 300px; /* Set a fixed height for the book items */
+  justify-content: space-between; /* Distribute space between the items */
+}
+
+.book-cover {
+  width: 150px;
+  height: 200px; /* Set a fixed height for the cover images */
+  object-fit: contain;
+  margin-bottom: 5px; /* Minimized margin */
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.book-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 2px; /* Minimized margin */
+  color: var(--primary-dark-color); /* Use the primary dark color */
+}
+
+.book-author {
+  font-size: 14px;
+  color: var(--primary-dark-color); /* Use the primary dark color */
+  margin-top: 2px; /* Minimized margin */
+}
+
+/* Remove default link styling */
+.book-details a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 600px) {
+  .books-grid {
+    grid-template-columns: repeat(1, 1fr); /* Switch to 2 books per row */
+  }
+}
+
+/* Dark mode styles */
+.dark-mode .section-title,
+.dark-mode .intro,
+.dark-mode .book-name,
+.dark-mode .book-author {
+  color: var(--primary-light-color); /* Use the primary light color for text in dark mode */
+}
+
+.dark-mode .section-title::before,
+.dark-mode .section-title::after {
+  background-color: var(--primary-light-color); /* Use the primary light color */
+}

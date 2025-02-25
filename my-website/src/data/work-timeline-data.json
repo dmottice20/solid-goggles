@@ -1,0 +1,62 @@
+[
+    {
+        "Role": "Chief, Operations Center Analytic Support Cell",
+        "Organization": {
+            "Name": "Air Force Special Operations Command - Operations Center",
+            "Link": "https://www.afsoc.af.mil/"
+        },
+        "Start Date": "May 2024",
+        "End Date": "Present",
+        "Description": ""
+    },
+    {
+        "Role": "Flight Commander",
+        "Organization": {
+            "Name": "US Air Force - 45th Test Squadron",
+            "Link": ""
+        },
+        "Start Date": "Aug 2023",
+        "End Date": "May 2024",
+        "Description": "Built and led 10-member team responsible for the Developmental Test of the USAF's $74M ABMS program on an annual budget of only $2.5M"
+    },
+    {
+        "Role": "Deputy Flight Commander",
+        "Organization": {
+            "Name": "US Air Force - 45th Test Squadron",
+            "Link": ""
+        },
+        "Start Date": "Mar 2022",
+        "End Date": "Aug 2023",
+        "Description": "Led 50-member team responsible for testing and fielding national security software with an annual budget of $10M+"
+    },
+    {
+        "Role": "Intern - Data Science (Round 2)",
+        "Organization": {
+            "Name": "Kessel Run",
+            "Link": "https://kesselrun.af.mil/"
+        },
+        "Start Date": "Jun 2021",
+        "End Date": "Oct 2021",
+        "Description": "Implemented machine learning to identify and understand differences between optmized schedules and user-saved schedules savings 52 man-hours per year"
+    },
+    {
+        "Role": "Research Student",
+        "Organization": {
+            "Name": "Air Force Institute of Technology",
+            "Link": "https://www.afit.edu/ENS/programs.cfm?a=view&D=36"
+        },
+        "Start Date": "Mar 2021",
+        "End Date": "Mar 2022",
+        "Description": "Researched RL to control two blue aircraft versus a superior red aircraft"
+    },
+    {
+        "Role": "Intern - Data Science",
+        "Organization": {
+            "Name": "Kessel Run",
+            "Link": "https://kesselrun.af.mil/"
+        },
+        "Start Date": "Jun 2020",
+        "End Date": "Oct 2020",
+        "Description": "Developed, deployed, and maintained an optimization algorithm scheduling sorties and mx jobs to aircraft"
+    }
+]

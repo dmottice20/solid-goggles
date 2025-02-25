@@ -12,6 +12,11 @@ import './index.css';
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
+  // ensure we start at the top of each page when loaded.
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);

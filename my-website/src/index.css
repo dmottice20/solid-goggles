@@ -8,6 +8,10 @@ body.dark-mode {
   color: var(--primary-light-color);
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;

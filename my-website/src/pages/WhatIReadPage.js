@@ -91,11 +91,11 @@ const WhatIRead = () => {
     <div className='what-i-read-container'>
       <div className='narration'>
         <p className='intro'>
-          I am a firm believer we are the product of the information we consume and the people we surround ourselves with. That is why I am showing you the information I consume.
-          <span className='emphasis emphasis-1'> To give you a glimpse at who I am.</span>
-          <span className='emphasis emphasis-2'> How I process the world.</span>
-          <span className='emphasis emphasis-3'> How I think.</span>
-          <span className='emphasis emphasis-4'> How I act.</span>
+          i am a firm believer we are the product of the information we consume and the people we surround ourselves with. that is why i am showing you the information i consume.
+          <span className='emphasis emphasis-1'> to give you a glimpse at who i am.</span>
+          <span className='emphasis emphasis-2'> how i process the world.</span>
+          <span className='emphasis emphasis-3'> how i think.</span>
+          <span className='emphasis emphasis-4'> how i act.</span>
         </p>
       </div>
       <div className='news-podcasts-section'>

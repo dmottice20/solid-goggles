@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Preview</title>
+</head>
+<body>
+    <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- Define the accent gradient matching your theme -->
+      <defs>
+        <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#3B82F6" />
+          <stop offset="50%" stop-color="#A855F7" />
+          <stop offset="100%" stop-color="#EC4899" />
+        </linearGradient>
+      </defs>
+      
+      <!-- Box around the monogram -->
+      <rect x="5" y="5" width="190" height="190" fill="none" stroke="url(#accentGradient)" stroke-width="12" />
+      
+      <!-- M-shaped monogram -->
+      <path d="M50,150 L50,50 L100,125 L150,50 L150,150" 
+            fill="none" 
+            stroke="url(#accentGradient)" 
+            stroke-width="12" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" />
+    </svg>
+</body>
+</html>

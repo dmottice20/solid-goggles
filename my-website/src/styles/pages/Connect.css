@@ -3,6 +3,7 @@
     padding: 20px;
     background-color: var(--bg-color);
     color: var(--text-color);
+    margin-top: 150px;
   }
   
   .connect-container h1 {
